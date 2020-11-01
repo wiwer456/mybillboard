@@ -1,0 +1,459 @@
+<style>
+	/*вот так ставятся комментарии внутри style*/
+	.header{
+		background-color: black;
+		height: 60px;
+		width: 2000px;
+		border: 1px solid black;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.charts-conatiner{
+		background-color: white;
+		height: 850px;
+		width: 1100px;
+		margin-right: auto;
+		margin-left: auto;
+		
+	}
+	.header-center{
+		background-color: blue;
+		height: 55px;
+		width: 1100px;
+		margin-left: auto;
+		margin-right: auto;
+		border: 1px solid black;
+		display: flex;
+	}
+	.charts-sort{
+		background-color: white;
+		height: 70px;
+		width: 1100px;
+		display: flex; 
+	}
+	     .sort-button{
+	     	background-color: red;
+	     	color: white;
+	     	border-radius: 5px;
+	     	height: 50px;
+		    width: 180px;
+		    margin-left: 20px;
+		    margin-top: 10px;
+		    font-size: 25px
+	     }
+	     .sort-button2{
+	     	background-color: blue;
+	     	color: white;
+	     	border-radius: 5px;
+	     	height: 50px;
+		    width: 180px;
+		    margin-left: 20px;
+		    margin-top: 10px;
+		    font-size: 25px
+	     }
+	     .sort-button3{
+	     	background-color: green;	    
+	     	color: white;
+	     	border-radius: 5px;
+	     	height: 50px;
+		    width: 180px;
+		    margin-left: 20px;
+		    margin-top: 10px;
+		    font-size: 25px
+	     }
+	     .sort-button4{
+	     	background-color: purple;
+	     	color: white;
+	     	border-radius: 5px;
+	     	height: 50px;
+		    width: 180px;
+		    margin-left: 20px;
+		    margin-top: 10px;
+		    font-size: 25px
+	     }
+	.charts-up{
+		background-color: green;
+		height: 100px;
+		width: 1100px;
+		
+		margin-top: 10px;
+		display: flex;
+	}
+	.charts-new{
+		background-color: yellow;
+		height: 100px;
+		width: 1100px;
+		 
+		margin-top: 12px;
+		display: flex;
+	}
+	.charts-down{
+		background-color:#ed0f4a;
+		height: 100px;
+		width: 1100px;
+		
+		margin-top: 12px;
+		display: flex;
+	}
+	
+	.charts-rank{
+		background-color: #d119fe;
+		height: 90px; 
+		width: 80px;
+	}
+	           .charts-number{
+                  color: black;
+                  font-size: 23px;
+                  margin-left: 30px
+	           }
+	.charts-rank-up{
+		background-color: #a6e99d;
+		height: 100px; 
+		width: 80px;  
+	}         
+	           .charts-up2{
+                 color: green;
+                 font-size: 20px;
+                 margin-left: 25px
+	           }
+	           
+    .charts-rank-new{
+		background-color: #deeb9d;
+		height: 100px; 
+		width: 80px;  
+	}  
+	           .charts-new2{
+                  color: yellow;
+                  font-size: 20px;
+                  margin-left: 20px
+	           }
+	 .charts-rank-down{
+	background-color: #ebb99d ;
+	height: 100px; 
+	width: 80px;  
+	}  
+               .charts-down2{
+                  color: red;
+                  font-size: 20px;  
+                  margin-left: 15px
+	           }
+	.charts-info{
+		background-color: #928695;
+		height: 90px; 
+		width: 640px;
+	}
+				.charts-info-up{
+					background-color: #a6e99d;
+					height: 100px; 
+					width: 640px;
+				}
+				.charts-info-new{
+					background-color: #deeb9d;
+					height: 100px; 
+					width: 640px;
+				}
+				.charts-info-down{
+					background-color: #ebb99d;
+					height: 100px; 
+					width: 640px;
+				}
+				.info-text1{
+                  color: black;
+                  font-size:;
+                  margin-bottom: 1px;
+				}
+				.info-text2{
+                  color: grey;
+                  font-size: ;
+                  margin-bottom: 1px;
+				}
+	.charts-button{
+		background-color: #2e1262;
+		height: 90px; 
+		width: 260px;
+	}
+	        .button-buy{
+	        	color: white;
+	        	background-color: green;
+	        	height: 50px;
+	        	width: 160px;
+	        	margin-left: 50px;
+                margin-top: 10px
+	        }
+	        .button-play{
+	        	color: white;
+	        	background-color: blue;
+	        	height: 50px;
+	        	width: 160px;
+                margin-left: 50px;
+                margin-top: 10px
+	        }
+				.charts-button-up{
+					background-color: #a6e99d;
+					height: 100px; 
+					width: 260px;
+				}
+				.charts-button-new{
+					background-color:  #deeb9d;
+					height: 100px; 
+					width: 260px;
+				}
+				.charts-button-down{
+					background-color: #ebb99d;
+					height: 100px; 
+					width: 260px;
+				}
+	.charts-img{
+		background-color: #4a8de6;
+		height: 100px; 
+		width: 120px;
+		border: 1px solid black
+	}
+	   .imglol{
+	   	height: 100px; 
+		width: 120px;
+	   }
+	.box-logo{
+		background-color: black;
+		height: 55px;
+		width: 190px;
+	}
+	.box-links{
+		background-color: black;
+		height: 55px;
+		width: 760px;
+		font-size: 30px;
+	}
+	       .links{
+	       	margin-left: 100px;
+	       	color: #1f89b3;
+	       }
+	        .links2{
+	       	margin-left: 30px;
+	       	color: #c283d6;
+	       }
+	       .links3{
+	       	margin-left: 30px;
+	       	color: #b35f7d;
+	       }
+	       .links4{
+	       	margin-left: 30px;
+	       	color: #c2cb75;
+	       }
+	       .links5{
+	       	margin-left: 30px;
+	       	color: #83d78e;
+	       }
+	.box-buttons{
+		background-color: black;
+		height: 55px;
+		width: 150px;
+	}
+	       .button{
+	       	background-color: purple;
+	       	color: white;
+	       	height: 45px;
+		    width: 100px;
+		    margin-left: 15px;
+		    border-radius: 10px;
+		    margin-top: 5px
+	       }
+</style>
+<!-- 1 уровень. шапка -->
+<div class="header">
+	<!-- 2 уровень. выравнивание шапки -->
+	<div class="header-center">
+		<!-- 3 уровень -->
+		<!-- лого -->
+		<div class="box-logo">
+			<img src="unknown.png" style="margin-top: 5px">
+		</div>
+		<!-- ссылки -->
+		<div class="box-links">
+			<a href="" class="links">charts</a>
+			<a href="" class="links2">news</a>
+			<a href="" class="links3">video</a>
+			<a href="" class="links5">photos</a>
+			<a href="" class="links4">pro</a>
+		</div>
+		<!-- кнопка подписаться -->
+		<div class="box-buttons">
+			<button class="button">subscribe</button>
+		</div>
+	</div>
+</div>
+
+<!-- 1 уровень. чат-контейнер -->
+<div class="charts-conatiner">
+	<!-- 2 уровень -->
+	<!-- для кнопок сортировки -->
+	<div class="charts-sort">
+		<button class="sort-button">This week</button>
+		<button class="sort-button2">Last week</button>
+		<button class="sort-button3">Peak</button>
+		<button class="sort-button4">Duration</button>
+	</div>
+	<!--все треки в чарте -->
+
+	<!-- трек up -->
+	<div class="charts-up">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank-up">
+			<h1 class="charts-number">1</h1>
+			<p class="charts-up2">up</p>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info-up">
+			<h1 class="info-text1" >Everyday Normal Guy 2</h1>
+			<p class="info-text2">Jon LaJoie</p>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button-up">
+			<button class="button-play">воспроизвести</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="логоnormalguy.jpg" class="imglol">
+		</div>
+	</div>
+
+	<!-- трек new -->
+	<div class="charts-new">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank-new">
+			<h1 class="charts-number">2</h1>
+			<p class="charts-new2">new</p>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info-new">
+			<h1 class="info-text1">Day 'n' Nite</h1>
+			<p class="info-text2">Kid Cudi</p>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button-new">
+			<button class="button-buy">купить</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="daynnite.jpg" class="imglol">
+		</div>		
+	</div>
+
+	<!-- трек new -->
+	<div class="charts-new">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank-new">
+			<h1 class="charts-number">3</h1>
+			<p class="charts-new2">new</p>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info-new">
+			<h1 class="info-text1">Clash</h1>
+			<p class="info-text2">Hector Posser</p>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button-new">
+			<button class="button-buy">купить</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="Clash.jpg" class="imglol">
+		</div>		
+	</div>
+
+	<!-- трек up -->
+	<div class="charts-up">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank-up">
+			<h1 class="charts-number">3</h1>
+			<p class="charts-up2">up</p>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info-up">
+			<h1 class="info-text1">В моём тихом омуте</h1>
+			<p class="info-text2">Сметана Band</p>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button-up">
+			<button class="button-buy">купить</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="омут.jpg" class="imglol">
+		</div>		
+	</div>
+
+	<!-- трек down -->
+	<div class="charts-down">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank-down">
+			<h1 class="charts-number">5</h1>
+			<p class="charts-down2">down</p>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info-down">
+			<h1 class="info-text1">You're so High</h1>
+			<p class="info-text2"> Eli & Fur</p>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button-down">
+			<button class="button-play">воспроизвести</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img"> 
+			<img src="high.jpg" class="imglol">
+		</div>		
+	</div>
+
+	<!-- трек new -->
+	<div class="charts-new">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank-new">
+			<h1 class="charts-number">6</h1>
+			<p class="charts-new2">new</p>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info-new">
+			<h1 class="info-text1">Плохие Манеры</h1>
+			<p class="info-text2">Сметана Band</p>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button-new">
+			<button class="button-play">воспроизвести</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="манеры.jpg" class="imglol">
+		</div>		
+	</div>
+
+	<!-- трек up -->
+	<div class="charts-up">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank-up">
+			<h1 class="charts-number">7</h1>
+			<p class="charts-up2">up</p>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info-up"> 
+			<h1 class="info-text1">Wake Up</h1>
+            <p class="info-text2">moow feat. Lotte Kestner</p>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button-up">
+			<button class="button-buy">купить</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="wakeup.jpg" class="imglol">
+		</div>		
+	</div>
+</div>
+<!--  -->
